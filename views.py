@@ -15,7 +15,7 @@ def page_tag():
 
 
 @app.route("/post/", methods=["GET", "POST"])
-def page_post_create():
+def page_post_form():
     return functions.add_post_url()
 
 

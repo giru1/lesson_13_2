@@ -13,7 +13,7 @@
     {% if text or file %}
     <h1>Пост добавлен! </h1>
     <div class="post">
-        <img src="uploads/{{ file }}" width="100%" alt="">
+        <img src="/uploads/{{ file.filename }}" width="100%" alt="">
         <p>{{ text }}</p>
     </div>
     {% else %}
